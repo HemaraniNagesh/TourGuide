@@ -14,7 +14,7 @@ import javax.swing.JLabel;
 
 public class Hampi {
 	int i=1;
-	private JFrame frame;
+	public JFrame frame;
 
 	/**
 	 * Launch the application.

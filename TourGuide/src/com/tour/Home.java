@@ -87,6 +87,18 @@ public class Home {
 					sh.frame.setVisible(true);
 					frame.dispose();
 				}
+				
+				if(comboBox.getSelectedIndex() == 4) {
+					Hampi hp = new Hampi();
+					hp.frame.setVisible(true);
+					frame.dispose();
+				}
+				
+				if(comboBox.getSelectedIndex() == 5) {
+					Udupi up = new Udupi();
+					up.frame.setVisible(true);
+					frame.dispose();
+				}
 			}
 		});
 		btnSubmit.setBounds(405, 380, 135, 39);
@@ -95,7 +107,7 @@ public class Home {
 		Image img = new ImageIcon(this.getClass().getResource("/logo.png")).getImage();
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setBounds(23, 13, 193, 160);
+		lblNewLabel.setBounds(23, 13, 217, 195);
 		lblNewLabel.setIcon(new ImageIcon(img));
 		frame.getContentPane().add(lblNewLabel);
 		
